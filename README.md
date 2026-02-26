@@ -56,6 +56,13 @@ network_traffic_analyzer.ipynb
 ### 🔹 System Architecture
 ![System Architecture](images/system_architecture.png)
 
+The system follows a layered architecture:
+- Data Collection: Real-time packet capture using Scapy
+- Data Processing: Feature extraction and structuring
+- Data Analysis: Isolation Forest-based anomaly detection
+- Visualization: Graph-based monitoring
+- Alerting: Identification of suspicious traffic
+
 ---
 
 ### 🔹 Protocol & Packet Size Analysis
