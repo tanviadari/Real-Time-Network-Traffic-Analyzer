@@ -42,6 +42,13 @@ network_traffic_analyzer.ipynb
 3. Run all cells.
 
 
+## 💡 Technical Highlights
+
+- Real-time packet capture using Scapy
+- Feature engineering for network traffic analysis
+- Unsupervised anomaly detection using Isolation Forest
+- Data visualization using Matplotlib
+
 
 ## 📊 Future Improvements
 - Add live dashboard (Streamlit / Flask)
