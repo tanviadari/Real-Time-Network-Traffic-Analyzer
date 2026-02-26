@@ -41,6 +41,25 @@ network_traffic_analyzer.ipynb
 
 3. Run all cells.
 
+## 📷 Project Visualizations
+
+### 🔹 Top Source IP Addresses
+![Top Source IPs](images/top_source_ips.png)
+
+---
+
+### 🔹 Network Traffic Over Time with Anomalies
+![Traffic Over Time](images/traffic_over_time.png)
+
+---
+
+### 🔹 System Architecture
+![System Architecture](images/system_architecture.png)
+
+---
+
+### 🔹 Protocol & Packet Size Analysis
+![Protocol Analysis](images/protocol_analysis.png)
 
 ## 💡 Technical Highlights
 
