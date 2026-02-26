@@ -1,25 +1,55 @@
-# Real-Time Network Traffic Analyzer
+# 🚀 Real-Time Network Traffic Analyzer
 
-## Overview
-This project captures real-time network packets using Scapy and detects anomalies using Isolation Forest machine learning algorithm.
+## 📌 Project Overview
+This project captures real-time network packets using Scapy and detects anomalous traffic using the Isolation Forest machine learning algorithm.
 
-## Technologies Used
+It demonstrates real-time packet inspection, feature extraction, anomaly detection, and visualization of network behavior.
+
+
+## 🛠️ Technologies Used
 - Python
-- Scapy
+- Scapy (Packet Sniffing)
 - Pandas
 - NumPy
-- Scikit-learn
+- Scikit-learn (Isolation Forest)
 - Matplotlib
 
-## Features
-- Real-time packet sniffing
-- Feature extraction from IP/TCP/UDP packets
-- Anomaly detection using Isolation Forest
-- Visualization of traffic behavior
 
-## How to Run
-Install dependencies:
-pip install scapy pandas numpy scikit-learn matplotlib
 
-Run the notebook:
+## ⚙️ Key Features
+- Real-time packet capture
+- Extraction of IP, TCP, UDP features
+- Machine learning-based anomaly detection
+- Traffic visualization
+- Detection of suspicious network activity
+
+
+## 🧠 Anomaly Detection Model
+Isolation Forest algorithm is used to identify abnormal traffic behavior based on extracted packet features.
+
+
+
+## ▶️ How to Run
+
+1. Install dependencies:
+
+pip install -r requirements.txt
+
+2. Open the notebook:
+
 network_traffic_analyzer.ipynb
+
+3. Run all cells.
+
+
+
+## 📊 Future Improvements
+- Add live dashboard (Streamlit / Flask)
+- Integrate database logging
+- Deploy as a monitoring tool
+- Add more ML models for comparison
+
+
+
+## 👩‍💻 Author
+Tanvi Pentakota
